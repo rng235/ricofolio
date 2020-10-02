@@ -1,20 +1,19 @@
 import PropTypes from 'prop-types'
 import React from 'react'
+import meIcon from '../images/me-in-a-box.jpg'
 
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
-    <div className="logo">
-      <span className="icon fa-diamond"></span>
+    <div className="logo-oval">
+      <img className="icon" src={meIcon} style={{width:'8.5rem', height: 'auto', borderRadius: '50%', objectFit: 'contain'}}/>
     </div>
     <div className="content">
       <div className="inner">
-        <h1>Dimension</h1>
+        <h1>Ricardo Guntur</h1>
         <p>
-          A fully responsive site template designed by{' '}
-          <a href="https://html5up.net">HTML5 UP</a> and released
+          Programming is just pushing a sequence of buttons to make stuff happen,
           <br />
-          for free under the{' '}
-          <a href="https://html5up.net/license">Creative Commons</a> license.
+            sometimes good stuff. And yes, that's me in a cardboard box.
         </p>
       </div>
     </div>
