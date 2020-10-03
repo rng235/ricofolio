@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 import pandiumLogo from '../images/pandiumLogo.png'
-import bluecore from '../images/bluecore.jpeg'
+import bluecore from '../images/bluecore.jpg'
 
 class Main extends React.Component {
   render() {
@@ -64,7 +64,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Work</h2>
           <span className="image main">
-            <img src={pandiumLogo} alt="" />
+            <img src={pandiumLogo} alt="pandiumLogo" />
           </span>
           <p>
               <a href='https://pandium.com' target='_blank' rel="noreferrer">Pandium</a> is built by career integration experts who experienced the
@@ -89,7 +89,7 @@ class Main extends React.Component {
         >
           <h2 className="major">About</h2>
           <span className="image main">
-            <img src={bluecore} alt="" />
+            <img src={bluecore} alt="bluecore" />
           </span>
             <p>
                 That's me in white, way back when I was at <a href="https://bluecore.com" target='_blank' rel="noreferrer">Bluecore</a>.
