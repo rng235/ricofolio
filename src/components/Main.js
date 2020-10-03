@@ -1,8 +1,8 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import pic01 from '../images/pic01.jpg'
-import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
+import pandiumLogo from '../images/pandiumLogo.png'
+import bluecore from '../images/bluecore.jpeg'
 
 class Main extends React.Component {
   render() {
@@ -12,7 +12,7 @@ class Main extends React.Component {
         onClick={() => {
           this.props.onCloseArticle()
         }}
-      ></div>
+      />
     )
 
     return (
@@ -21,39 +21,40 @@ class Main extends React.Component {
         id="main"
         style={this.props.timeout ? { display: 'flex' } : { display: 'none' }}
       >
-        <article
-          id="intro"
-          className={`${this.props.article === 'intro' ? 'active' : ''} ${
-            this.props.articleTimeout ? 'timeout' : ''
-          }`}
-          style={{ display: 'none' }}
-        >
-          <h2 className="major">Intro</h2>
-          <span className="image main">
-            <img src={pic01} alt="" />
-          </span>
-          <p>
-            Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
-            aliquam facilisis ante interdum congue. Integer mollis, nisl amet
-            convallis, porttitor magna ullamcorper, amet egestas mauris. Ut
-            magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas.
-            By the way, check out my <a href="#work">awesome work</a>.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-            dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora
-            torquent per conubia nostra, per inceptos himenaeos. Etiam tristique
-            libero eu nibh porttitor fermentum. Nullam venenatis erat id
-            vehicula viverra. Nunc ultrices eros ut ultricies condimentum.
-            Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae
-            dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in
-            lectus. Pellentesque habitant morbi tristique senectus et netus et
-            malesuada fames ac turpis egestas. In non lorem sit amet elit
-            placerat maximus. Pellentesque aliquam maximus risus, vel sed
-            vehicula.
-          </p>
-          {close}
-        </article>
+        {/*TODO unused tab*/}
+        {/*<article*/}
+          {/*id="intro"*/}
+          {/*className={`${this.props.article === 'intro' ? 'active' : ''} ${*/}
+            {/*this.props.articleTimeout ? 'timeout' : ''*/}
+          {/*}`}*/}
+          {/*style={{ display: 'none' }}*/}
+        {/*>*/}
+          {/*<h2 className="major">Intro</h2>*/}
+          {/*<span className="image main">*/}
+            {/*<img src={pic01} alt="" />*/}
+          {/*</span>*/}
+          {/*<p>*/}
+            {/*Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin*/}
+            {/*aliquam facilisis ante interdum congue. Integer mollis, nisl amet*/}
+            {/*convallis, porttitor magna ullamcorper, amet egestas mauris. Ut*/}
+            {/*magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas.*/}
+            {/*By the way, check out my <a href="#work">awesome work</a>.*/}
+          {/*</p>*/}
+          {/*<p>*/}
+            {/*Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis*/}
+            {/*dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora*/}
+            {/*torquent per conubia nostra, per inceptos himenaeos. Etiam tristique*/}
+            {/*libero eu nibh porttitor fermentum. Nullam venenatis erat id*/}
+            {/*vehicula viverra. Nunc ultrices eros ut ultricies condimentum.*/}
+            {/*Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae*/}
+            {/*dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in*/}
+            {/*lectus. Pellentesque habitant morbi tristique senectus et netus et*/}
+            {/*malesuada fames ac turpis egestas. In non lorem sit amet elit*/}
+            {/*placerat maximus. Pellentesque aliquam maximus risus, vel sed*/}
+            {/*vehicula.*/}
+          {/*</p>*/}
+          {/*{close}*/}
+        {/*</article>*/}
 
         <article
           id="work"
@@ -64,22 +65,18 @@ class Main extends React.Component {
         >
           <h2 className="major">Work</h2>
           <span className="image main">
-            <img src={pic02} alt="" />
+            <img src={pandiumLogo} alt="" />
           </span>
           <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
+              <a href='https://pandium.com' target='_blank'>Pandium</a> is built by career integration experts who experienced the
+              difficulty of using legacy integration platforms to build and enter in-app marketplaces.
+              I would never call out names but Boomi sucks and I would never wish it up any engineer.
           </p>
           <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
+            As the first engineer under our lord and savior CTO, I have built our admin and custom dashboards
+            from the bottom up. Utilizing modern tools/frameworks like React with React Admin to prevent reinventing the wheel.
+            Powered by Kubernetes, easily deployed with docker, and an API quickly iterated in Python. Now there's more than just me,
+            and we continue to tear down to build more. And remember, all code is tech debt.
           </p>
           {close}
         </article>
@@ -93,16 +90,21 @@ class Main extends React.Component {
         >
           <h2 className="major">About</h2>
           <span className="image main">
-            <img src={pic03} alt="" />
+            <img src={bluecore} alt="" />
           </span>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
+            <p>
+                That's me in white, way back when I was at <a href="https://bluecore.com" target='_blank'>Bluecore</a>.
+                Building integrations
+                to retail sites to collect useful data ranging from email address to which categories you viewed and how
+                many times you viewed it. Creepy, I know.
+            </p>
+            <p>
+                I graduated from New York University in 2016 studying Computer Science. There I learned everything I
+                don't actually use in practice today.
+                Born in Indonesia and raised in NY, I learned about my own culture by being President of the Indonesian
+                Students Association (ISA) at NYU.
+                Growing up, my siblings and I were the only Indonesians until we attended University. In my spare time I
+                play too many video games and attend the gym for fun.
           </p>
           {close}
         </article>

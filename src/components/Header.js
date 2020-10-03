@@ -5,11 +5,11 @@ import meIcon from '../images/me-in-a-box.jpg'
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
     <div className="logo-oval">
-      <img className="icon" src={meIcon} style={{width:'8.5rem', height: 'auto', borderRadius: '50%', objectFit: 'contain'}}/>
+      <img alt='logo img' className="oval-icon" src={meIcon}/>
     </div>
     <div className="content">
       <div className="inner">
-        <h1>Ricardo</h1>
+        <h1>Ricardo Guntur</h1>
         <p>
           Programming is just pushing a sequence of buttons to make stuff happen,
           <br />
@@ -19,15 +19,6 @@ const Header = props => (
     </div>
     <nav>
       <ul>
-        <li>
-          <button
-            onClick={() => {
-              props.onOpenArticle('intro')
-            }}
-          >
-            Intro
-          </button>
-        </li>
         <li>
           <button
             onClick={() => {
