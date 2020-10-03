@@ -1,6 +1,5 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import pic03 from '../images/pic03.jpg'
 import pandiumLogo from '../images/pandiumLogo.png'
 import bluecore from '../images/bluecore.jpeg'
 
@@ -74,8 +73,8 @@ class Main extends React.Component {
           </p>
           <p>
             As the first engineer under our lord and savior CTO, I have built our admin and custom dashboards
-            from the bottom up. Utilizing modern tools/frameworks like React with React Admin to prevent reinventing the wheel.
-            Powered by Kubernetes, easily deployed with docker, and an API quickly iterated in Python. Now there's more than just me,
+              from the bottom up. Utilizing modern tools/frameworks like React with <a href='https://marmelab.com/react-admin/' target='_blank'>React Admin</a> to prevent reinventing the wheel.
+              Powered by <a href='https://kubernetes.io/' target='_blank'>Google's Kubernetes</a>, easily deployed with Docker, and an API quickly iterated in Python. Now there's more than just me,
             and we continue to tear down to build more. And remember, all code is tech debt.
           </p>
           {close}
@@ -95,16 +94,16 @@ class Main extends React.Component {
             <p>
                 That's me in white, way back when I was at <a href="https://bluecore.com" target='_blank'>Bluecore</a>.
                 Building integrations
-                to retail sites to collect useful data ranging from email address to which categories you viewed and how
+                for retail sites to collect useful data ranging from email address to which categories you viewed and how
                 many times you viewed it. Creepy, I know.
             </p>
             <p>
                 I graduated from New York University in 2016 studying Computer Science. There I learned everything I
                 don't actually use in practice today.
-                Born in Indonesia and raised in NY, I learned about my own culture by being President of the Indonesian
+                Born in Indonesia and raised in NY, I learned about my own culture at home and being the President of the Indonesian
                 Students Association (ISA) at NYU.
-                Growing up, my siblings and I were the only Indonesians until we attended University. In my spare time I
-                play too many video games and attend the gym for fun.
+                Growing up, I didn't have any Indonesian collegaue until I attended University. In my spare time I
+                play too many video games and head to the gym for fun.
           </p>
           {close}
         </article>

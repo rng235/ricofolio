@@ -15,8 +15,7 @@ module.exports = {
         background_color: '#663399',
         theme_color: '#663399',
         display: 'minimal-ui',
-        // TODO update with personal logo
-        icon: 'src/images/gatsby-icon.png', // This path is relative to the root of the site.
+        icon: 'src/images/rglogo.png', // This path is relative to the root of the site.
       },
     },
     'gatsby-plugin-sass',

@@ -9,7 +9,7 @@ const Header = props => (
     </div>
     <div className="content">
       <div className="inner">
-        <h1>Ricardo Guntur</h1>
+        <h1>Ricardo N. Guntur</h1>
         <p>
           Programming is just pushing a sequence of buttons to make stuff happen,
           <br />
