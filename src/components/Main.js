@@ -67,14 +67,14 @@ class Main extends React.Component {
             <img src={pandiumLogo} alt="" />
           </span>
           <p>
-              <a href='https://pandium.com' target='_blank'>Pandium</a> is built by career integration experts who experienced the
+              <a href='https://pandium.com' target='_blank' rel="noreferrer">Pandium</a> is built by career integration experts who experienced the
               difficulty of using legacy integration platforms to build and enter in-app marketplaces.
               I would never call out names but Boomi sucks and I would never wish it up any engineer.
           </p>
           <p>
             As the first engineer under our lord and savior CTO, I have built our admin and custom dashboards
-              from the bottom up. Utilizing modern tools/frameworks like React with <a href='https://marmelab.com/react-admin/' target='_blank'>React Admin</a> to prevent reinventing the wheel.
-              Powered by <a href='https://kubernetes.io/' target='_blank'>Google's Kubernetes</a>, easily deployed with Docker, and an API quickly iterated in Python. Now there's more than just me,
+              from the bottom up. Utilizing modern tools/frameworks like React with <a href='https://marmelab.com/react-admin/' target='_blank' rel="noreferrer">React Admin</a> to prevent reinventing the wheel.
+              Powered by <a href='https://kubernetes.io/' target='_blank' rel="noreferrer">Google's Kubernetes</a>, easily deployed with Docker, and an API quickly iterated in Python. Now there's more than just me,
             and we continue to tear down to build more. And remember, all code is tech debt.
           </p>
           {close}
@@ -92,7 +92,7 @@ class Main extends React.Component {
             <img src={bluecore} alt="" />
           </span>
             <p>
-                That's me in white, way back when I was at <a href="https://bluecore.com" target='_blank'>Bluecore</a>.
+                That's me in white, way back when I was at <a href="https://bluecore.com" target='_blank' rel="noreferrer">Bluecore</a>.
                 Building integrations
                 for retail sites to collect useful data ranging from email address to which categories you viewed and how
                 many times you viewed it. Creepy, I know.
