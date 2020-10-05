@@ -72,7 +72,7 @@ class Main extends React.Component {
               I would never call out names but Boomi sucks and I would never wish it up any engineer.
           </p>
           <p>
-            As the first engineer under our lord and savior CTO, I have built our admin and custom dashboards
+            As the first engineer under our lord and savior CTO, I have built our admin and user dashboards
               from the bottom up. Utilizing modern tools/frameworks like React with <a href='https://marmelab.com/react-admin/' target='_blank' rel="noreferrer">React Admin</a> to prevent reinventing the wheel.
               Powered by <a href='https://kubernetes.io/' target='_blank' rel="noreferrer">Google's Kubernetes</a>, easily deployed with Docker, and an API quickly iterated in Python. Now there's more than just me,
             and we continue to tear down to build more. And remember, all code is tech debt.
@@ -102,7 +102,7 @@ class Main extends React.Component {
                 don't actually use in practice today.
                 Born in Indonesia and raised in NY, I learned about my own culture at home and being the President of the Indonesian
                 Students Association (ISA) at NYU.
-                Growing up, I didn't have any Indonesian collegaue until I attended University. In my spare time I
+                Growing up, I didn't have any Indonesian colleagues/friends until I attended University. In my spare time I
                 play too many video games and head to the gym for fun.
           </p>
           {close}
