@@ -11,9 +11,9 @@ const Header = props => (
       <div className="inner">
         <h1>Ricardo N. Guntur</h1>
         <p>
-          Programming is just pushing a sequence of buttons to make stuff happen,
+          Building stuff and building myself,
           <br />
-            sometimes good stuff. And yes, that's me in a cardboard box.
+            sometimes good stuff.
         </p>
       </div>
     </div>
