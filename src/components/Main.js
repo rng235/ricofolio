@@ -69,13 +69,16 @@ class Main extends React.Component {
           <p>
               <a href='https://pandium.com' target='_blank' rel="noreferrer">Pandium</a> is built by career integration experts who experienced the
               difficulty of using legacy integration platforms to build and enter in-app marketplaces.
-              I would never call out names but Boomi sucks and I would never wish it up any engineer.
+              I would never call out names but Boomi sucks and I would never wish it on anyone.
           </p>
           <p>
-            As the first engineer under our lord and savior CTO, I have built our admin and user dashboards
-              from the bottom up. Utilizing modern tools/frameworks like React with <a href='https://marmelab.com/react-admin/' target='_blank' rel="noreferrer">React Admin</a> to prevent reinventing the wheel.
-              Powered by <a href='https://kubernetes.io/' target='_blank' rel="noreferrer">Google's Kubernetes</a>, easily deployed with Docker, and an API quickly iterated in Python. Now there's more than just me,
-            and we continue to tear down to build more. And remember, all code is tech debt.
+              As the first engineer, I have built our admin and user dashboards
+              from the ground up. Utilizing modern tools/frameworks like React with <a
+              href='https://marmelab.com/react-admin/' target='_blank' rel="noreferrer">React Admin</a> to prevent
+              reinventing the wheel and themed by <a href='https://material-ui.com/' target='_blank' rel="noreferrer">Material-UI</a>.
+              Powered by <a href='https://kubernetes.io/' target='_blank' rel="noreferrer">Google's Kubernetes</a>,
+              easily deployed with Docker, and an API quickly iterated in Python. Today there's more than just me,
+              and we continue to tear down to build more.
           </p>
           {close}
         </article>
