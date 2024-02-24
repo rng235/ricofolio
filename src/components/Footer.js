@@ -11,7 +11,7 @@ const Footer = (props) => (
             </li>
             <li>
                 <a
-                    href="https://github.com/rng235"
+                    href="https://github.com/guntur-ricardo"
                     className="icon fa-github"
                     target='_blank'
                     rel="noreferrer"

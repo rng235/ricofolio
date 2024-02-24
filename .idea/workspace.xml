@@ -5,10 +5,67 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ca95389-a15e-407a-a6a7-d3ee11a50ab2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.prettierignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gatsby-browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gatsby-node.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gatsby-ssr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dependency-time-machine-cache.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.prettierrc" beforeDir="false" afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ricofolio.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/ie9.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/noscript.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/base/_page.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/base/_typography.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/components/_box.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/components/_button.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/components/_form.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/components/_icon.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/components/_image.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/components/_list.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/components/_table.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/ie9.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/layout/_bg.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/layout/_footer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/layout/_header.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/layout/_main.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/layout/_wrapper.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/libs/_functions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/libs/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/libs/_skel.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/libs/_vars.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/main.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/noscript.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/bluecore.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/gatsby-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/me-in-a-box.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/overlay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pandiumLogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pic01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pic02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/pic03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/rglogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/404.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/page-2.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,9 +115,9 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1720" />
@@ -101,19 +158,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
@@ -125,7 +182,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601668911462</updated>
-      <workItem from="1708739787779" duration="3127000" />
+      <workItem from="1708739787779" duration="3697000" />
+      <workItem from="1708744235760" duration="663000" />
     </task>
     <servers />
   </component>
