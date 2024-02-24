@@ -70,7 +70,7 @@ class Main extends React.Component {
                         <a href='https://pandium.com' target='_blank' rel="noreferrer">Pandium</a> is platform for B2B
                         SaaS business to build and launch native software integrations.
                         I lead a small but talented team of engineers that deliver platform features and integrations
-                        from start to finish in greenfield work.
+                        from start to finish in greenfield style approaches.
                     </p>
                     <p>
                         As the founding engineer, I have built our admin and user dashboards
