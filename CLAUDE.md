@@ -14,7 +14,7 @@ Personal website showcasing who I am. Built with Gatsby 5 (React 18, Sass).
 - `gatsby-config.js` — plugins and site metadata
 
 ## Hosting
-Currently on an AWS EC2 instance. Planned: migrate to a static host (Cloudflare Pages / Netlify / Vercel) since this is a fully static Gatsby build — but don't start that migration unprompted.
+Cloudflare Pages, project `ricofolio` (ricofolio.pages.dev), serving ricardoguntur.com and www via proxied CNAMEs. DNS is on Cloudflare; domain registered at Namecheap. Pushes to `main` trigger a Cloudflare build (deploy command: `npx wrangler pages deploy public --branch=main`). Migrated from AWS Amplify in June 2026.
 
 ## Notes
 - Content changes (bio, projects, etc.) matter more than tooling churn here.
