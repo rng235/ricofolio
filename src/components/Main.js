@@ -1,6 +1,5 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import pandiumLogo from '../images/pandiumLogo.png'
 import bluecore from '../images/bluecore.jpg'
 
 class Main extends React.Component {
@@ -63,28 +62,16 @@ class Main extends React.Component {
                     style={{display: 'none'}}
                 >
                     <h2 className="major">Work</h2>
-                    <span className="image main">
-            <img src={pandiumLogo} alt="pandiumLogo"/>
-          </span>
                     <p>
-                        <a href='https://pandium.com' target='_blank' rel="noreferrer">Pandium</a> is platform for B2B
-                        SaaS business to build and launch native software integrations.
-                        I lead a small but talented team of engineers that deliver platform features and integrations
-                        from start to finish in greenfield style approaches.
+                        I'm a Senior Software Engineer at Ricono, an insurtech startup
+                        simplifying how insurance agencies run.
                     </p>
                     <p>
-                        As the founding engineer, I have built our admin and user dashboards
-                        from the ground up. Utilizing modern tools/frameworks like React with <a
-                        href='https://marmelab.com/react-admin/' target='_blank' rel="noreferrer">React Admin</a> to
-                        prevent
-                        reinventing the wheel and themed by <a href='https://material-ui.com/' target='_blank'
-                                                               rel="noreferrer">Material-UI</a>.
-                        Powered by <a href='https://kubernetes.io/' target='_blank' rel="noreferrer">Google's
-                        Kubernetes</a>,
-                        easily deployed with Docker, and an API quickly iterated in Python.
-
-                        Today, the integrations I've led process millions of ecommerce orders a month for our clients.
-                        Scaling wonderfully, even during heavy days like Black Friday.
+                        We're product engineers with AI in the loop — less hand-writing code,
+                        more big-picture thinking: architecture, product decisions, and
+                        AI-augmented workflows that get features out the door. The stack:
+                        TypeScript and Python on Kubernetes and AWS, with Postgres keeping
+                        the records.
                     </p>
                     {close}
                 </article>
